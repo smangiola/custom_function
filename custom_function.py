@@ -6,7 +6,8 @@ def area(base, height): #function that calculates the area of a triangle
     else: #if both the base and height are greater than 0...
         return (height*base)/2 #then the area of the triangle is returned
 
-print(area(5, 6))
+area_1 = area(5, 6)
+print(f"The area of the triangle is: {area_1}")
 print(area(0, 2))
 print(area(3, 0))
     
